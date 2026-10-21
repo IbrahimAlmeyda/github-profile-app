@@ -53,7 +53,7 @@ src/
 ## Instalación y Uso
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/Ibrahim-003/Github-Profile-App.git
+git clone https://github.com/IbrahimAlmeyda/github-profile-app.git
 cd Github-Profile-App
 ```
 
