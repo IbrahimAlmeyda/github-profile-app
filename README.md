@@ -94,6 +94,7 @@ Puedes obtener un token en [GitHub Developer Settings](https://github.com/settin
 - ✅ **Componentes reutilizables** - Diseño modular para facilitar mantenimiento
 - ✅ **Documentación de código** - Comentarios JSDoc en funciones importantes
 - ✅ **Optimización de rendimiento** - Uso de useCallback y dependencias optimizadas en hooks
+- ✅ **Debounce en la búsqueda** - Las sugerencias de perfiles esperan a que dejes de escribir, evitando superar el límite de la API de GitHub
 
 ## 🔜 Mejoras Futuras
 - 📱 **Modo oscuro** - Implementación de tema claro/oscuro
@@ -125,5 +126,5 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para má
 ---
 
 <div align="center">
-  <p>Desarrollado con ❤️ por <a href="https://github.com/Ibrahim-003">Ibrahim-003</a></p>
+  <p>Desarrollado con ❤️ por <a href="https://github.com/IbrahimAlmeyda">Ibrahim Almeyda</a></p>
 </div>
