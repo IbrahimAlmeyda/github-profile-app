@@ -54,7 +54,7 @@ src/
 ### 1️⃣ Clonar el repositorio
 ```bash
 git clone https://github.com/IbrahimAlmeyda/github-profile-app.git
-cd Github-Profile-App
+cd github-profile-app
 ```
 
 ### 2️⃣ Instalar dependencias
@@ -75,17 +75,7 @@ npm run dev
 ```
 La aplicación estará disponible en `http://localhost:5173/`
 
-## Configuración de Variables de Entorno
-Para evitar restricciones en la API de GitHub, se recomienda utilizar un token de acceso. Crea un archivo `.env` en la raíz del proyecto y agrega:
-```env
-VITE_GITHUB_TOKEN=tu_token_aqui
-```
-Puedes obtener un token en [GitHub Developer Settings](https://github.com/settings/tokens).
-
-## Capturas de Pantalla
-![Vista Previa](./src/assets/images/desktop-preview.webp)
-
-## 🧪 Buenas Prácticas Implementadas
+## Buenas Prácticas Implementadas
 - ✅ **Arquitectura modular** - Componentes y lógica organizados por funcionalidad
 - ✅ **Custom hooks** - Separación de lógica de negocio y presentación
 - ✅ **Mappers** - Transformación de datos de API a formatos optimizados para la UI
@@ -96,7 +86,7 @@ Puedes obtener un token en [GitHub Developer Settings](https://github.com/settin
 - ✅ **Optimización de rendimiento** - Uso de useCallback y dependencias optimizadas en hooks
 - ✅ **Debounce en la búsqueda** - Las sugerencias de perfiles esperan a que dejes de escribir, evitando superar el límite de la API de GitHub
 
-## 🔜 Mejoras Futuras
+## Mejoras Futuras
 - 📱 **Modo oscuro** - Implementación de tema claro/oscuro
 - 📊 **Gráficos de actividad** - Visualización de contribuciones y actividad
 - 🔍 **Búsqueda avanzada** - Filtros adicionales para búsqueda de usuarios
@@ -104,21 +94,10 @@ Puedes obtener un token en [GitHub Developer Settings](https://github.com/settin
 - 🌐 **Internacionalización** - Soporte para múltiples idiomas
 - 🧪 **Tests unitarios** - Implementación de pruebas para garantizar calidad
 
-## 👥 Contribuciones
-¡Las contribuciones son bienvenidas! Para contribuir:
-
-1. Haz un fork del repositorio
-2. Crea una nueva rama (`git checkout -b feature/amazing-feature`)
-3. Realiza tus cambios y haz commit (`git commit -m 'Add some amazing feature'`)
-4. Sube los cambios (`git push origin feature/amazing-feature`)
-5. Abre un Pull Request
-
-Por favor, asegúrate de seguir las convenciones de código y añadir tests para nuevas características.
-
-## 📄 Licencia
+## Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
-## 🙏 Agradecimientos
+## Agradecimientos
 - [GitHub API](https://docs.github.com/en/rest) por proporcionar acceso a los datos
 - [devChallenges.io](https://devchallenges.io/) por la inspiración del proyecto
 - Todos los contribuidores que han ayudado a mejorar esta aplicación
